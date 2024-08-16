@@ -1,0 +1,102 @@
+{
+  "id": "GGOEGADH134333",
+  "name": "GGOEGADH134333",
+  "type": "PRIMARY",
+  "primary_product_id" : "",
+  "gtin": "3234567890126",
+  "categories": [
+    "Apparel > Shirts",
+    "Apparel > Shirts Mens",
+    "Sports & Fitness > Sweatshirts"
+  ],
+
+  "title": "Google Crewneck Sweatshirt Green",
+  "brands": [
+    "Google",
+    "Brand1",
+    "My test brand1"
+  ],
+  "description" : "A great shirt. A shirt designed to have many lives, made from wrinkle and odor resistant fabric with a crisp, lightweight feel. ",
+  "language_code" : "en-US",
+  "attributes": {
+    "collection": {
+      "numbers": [
+        2021
+      ]
+    },
+    "material" : {
+      "text": [
+        "Merino"
+      ]
+    }
+  },
+  "tags" : ["green", "shirt", "sports"],
+  "price_info": {
+    "cost": "12.0",
+    "currency_code": "USD",
+    "original_price": "45.0",
+    "price_effective_time": "2020-08-01T12:00:00+00:00",
+    "price_expire_time": "2120-08-01T12:00:00+00:00",
+    "price": "35"
+  },
+  "rating" :{
+    "rating_count" : "120",
+    "average_rating" : "3.3",
+    "rating_histogram" : [41, 14, 13, 47, 303]
+  },
+  "available_time" : "2014-10-02T15:01:23.045123456Z",
+  "availability": "IN_STOCK",
+  "available_quantity" : 250,
+  "fulfillment_info": [
+    {
+      "type": "custom-type-1",
+      "place_ids": [
+        "10384",
+        "10385",
+        "10386",
+        "10387"
+      ]
+    },
+    {
+      "type": "pickup-in-store",
+      "place_ids": [
+        "10385",
+        "10847"
+      ]
+    }
+  ],
+  "uri": "https://shop.googlemerchandisestore.com/Google+Redesign/Apparel/Google+Recycled+Organic+Heather+Forest+Tee",
+  "images": [
+    {
+      "height": "300",
+      "width": "400",
+      "uri": "https://shop.googlemerchandisestore.com/store/20160512512/assets/items/images/GGOEGXXX2040.jpg"
+    }
+  ],
+  "audience" : {
+    "genders" : ["male", "unisex"],
+    "ageGroups" : ["adult"]
+  },
+  "color_info": {
+    "color_families": [
+      "Green"
+    ],
+    "colors": [
+      "Olive",
+      "Grass green",
+      "Light green"
+    ]
+  },
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "materials" : ["cotton"],
+  "patterns" : ["plain"],
+  "conditions" : ["new"],
+  "publish_time" : "2022-10-02T15:01:23Z",
+  "expireTime" : "2025-10-02T15:01:23.045123456Z"
+}
