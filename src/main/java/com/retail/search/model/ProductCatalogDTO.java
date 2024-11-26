@@ -2,10 +2,14 @@ package com.retail.search.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.google.cloud.retail.v2.*;
 import lombok.Data;
 import lombok.Getter;
 import lombok.Setter;
+
+import javax.management.Attribute;
 import java.util.List;
+import java.util.Map;
 
 
 @Data
@@ -37,63 +41,63 @@ public class ProductCatalogDTO {
     @JsonProperty("brands")
     private List<String> brands;
 
-//    @JsonProperty("description")
-//    private String description;
-//
-//    @JsonProperty("language_code")
-//    private String languageCode;
+    @JsonProperty("description")
+    private String description;
 
-//    @JsonProperty("attributes")
-//    private Map<String, Attribute> attributes;
+    @JsonProperty("language_code")
+    private String languageCode;
 
-//    @JsonProperty("tags")
-//    private List<String> tags;
-//
-//    @JsonProperty("price_info")
-//    private PriceInfo priceInfo;
-//
-//    @JsonProperty("rating")
-//    private Rating rating;
-//
-//    @JsonProperty("available_time")
-//    private String availableTime;
-//
-//    @JsonProperty("availability")
-//    private String availability;
-//
-//    @JsonProperty("available_quantity")
-//    private int availableQuantity;
-//
-//    @JsonProperty("fulfillment_info")
-//    private List<FulfillmentInfo> fulfillmentInfo;
-//
-//    @JsonProperty("uri")
-//    private String uri;
-//
-//    @JsonProperty("images")
-//    private List<Image> images;
-//
-//    @JsonProperty("audience")
-//    private Audience audience;
-//
-//    @JsonProperty("color_info")
-//    private ColorInfo colorInfo;
-//
-//    @JsonProperty("sizes")
-//    private List<String> sizes;
-//
-//    @JsonProperty("materials")
-//    private List<String> materials;
-//
-//    @JsonProperty("patterns")
-//    private List<String> patterns;
-//
-//    @JsonProperty("conditions")
-//    private List<String> conditions;
-//
-//    @JsonProperty("publish_time")
-//    private String publishTime;
-//
-//    @JsonProperty("expireTime")
-//    private String expireTime;
+    @JsonProperty("attributes")
+    private Map<String, Attribute> attributes;
+
+    @JsonProperty("tags")
+    private List<String> tags;
+
+    @JsonProperty("price_info")
+    private PriceInfo priceInfo;
+
+    @JsonProperty("rating")
+    private Rating rating;
+
+    @JsonProperty("available_time")
+    private String availableTime;
+
+    @JsonProperty("availability")
+    private String availability;
+
+    @JsonProperty("available_quantity")
+    private int availableQuantity;
+
+    @JsonProperty("fulfillment_info")
+    private List<FulfillmentInfo> fulfillmentInfo;
+
+    @JsonProperty("uri")
+    private String uri;
+
+    @JsonProperty("images")
+    private List<Image> images;
+
+    @JsonProperty("audience")
+    private Audience audience;
+
+    @JsonProperty("color_info")
+    private ColorInfo colorInfo;
+
+    @JsonProperty("sizes")
+    private List<String> sizes;
+
+    @JsonProperty("materials")
+    private List<String> materials;
+
+    @JsonProperty("patterns")
+    private List<String> patterns;
+
+    @JsonProperty("conditions")
+    private List<String> conditions;
+
+    @JsonProperty("publish_time")
+    private String publishTime;
+
+    @JsonProperty("expireTime")
+    private String expireTime;
 }
